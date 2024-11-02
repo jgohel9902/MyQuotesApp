@@ -1,0 +1,27 @@
+"You have to slow down to move fast"
+Anonymous
+Rating: 5
+Description:"Wise, helpful
+
+
+"Measuring programming progress by lines of code is like measuring aircraft building progress by weight"
+by Bill Gates
+Rating: 4
+Description: Insightful
+
+"Buy land, they ain't making any more of it"
+by Will Rogers
+Rating: 4
+Description: Clever, witty
+
+
+"The question of whether Machines Can Think is about as relevant as the question of whether Submarines Can Swim."
+by Edsger Dijkstra
+Rating: 4
+Description: Brilliant comparison
+
+"Life is what happens while you are busy making other plans."
+by John Lennon
+Rating: 3
+Description: Clever
+

@@ -1,0 +1,33 @@
+﻿@model IEnumerable<FavouriteQuotesApp.Entities.Quote>
+
+<div class="container">
+    <h2>My Quotes</h2>
+    <a asp-action="Add" class="3">Add new quote</a>
+
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Quote</th>
+                <th>Author</th>
+                <th>Description</th>
+                <th>Rating</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var quote in Model)
+            {
+                <tr>
+                    <td>@quote.DisplayText</td>
+                    <td>@quote.Author</td>
+                    <td>@quote.Description</td>
+                    <td>@quote.Rating</td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@quote.Id" class="b">Details</a>
+                        <a asp-action="Edit" asp-route-id="@quote.Id" class="c">Edit</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
